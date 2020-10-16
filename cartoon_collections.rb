@@ -22,6 +22,7 @@ def find_valid_calls(planeteer_calls)
   planeteer_calls.find do |e|
     if e.include?("Earth!")
   end
+  find_valid_calls = e
 end
   
   
